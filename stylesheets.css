@@ -1,0 +1,188 @@
+*{
+  margin:0;
+  padding:0;
+  font-family: arial;
+
+}
+body{
+  color:red;
+
+}
+
+/*header ---------------------------*/
+header
+{
+  background-color: white;
+  
+  width:100%;
+  min-height: 70px;
+  z-index: 10;
+  border-bottom:solid 5px #95C623;
+}
+header h1{
+  float:left;
+  padding: 0;
+  margin: 10px 3% 3px 6%;
+}
+header #zied{
+ color:#95C623;
+}
+#navbar{
+  float:right;
+  
+  
+}
+#navbar ul {
+  
+}
+#navbar ul li
+{
+  font-size: 19px;
+ 
+  text-decoration: none;
+  
+  margin:10px 10px 15px 10px ;
+  padding:10px;
+  float:left;
+  overflow: hidden;
+}
+#navbar ul li a
+{
+  text-decoration: none;
+  color:#393a3a;
+}
+#navbar ul li a:hover
+{
+  font-weight: bold;
+}
+#navbar ul li  .active {
+  color: #95C623;
+  font-weight: bold;
+}
+/*ShowCase image*/
+.branding-img{
+   background-image: url(imgs/bureau.jpg);
+  transform: translate(0px, 0px);
+  padding: 0;
+  margin-bottom: 0;
+  background-attachment: fixed;
+background-size: cover;
+  width: 100%;
+  height: 80vh;
+}
+/*show Case text*/
+.text-showcase
+{
+  position: absolute;
+   top: 40%;
+   left: 50%;
+   transform: translateX(-50%) translateY(-50%);
+   font-family: lato;
+  font-size: 80px;
+
+  font-weight: 900;
+  color: white;
+  letter-spacing: 10px;
+  
+}
+.text-showcase1
+{
+   position: absolute;
+   top: 60%;
+   left: 50%;
+   transform: translateX(-50%) translateY(-50%);
+   font-family: lato;
+  font-size: 60px;
+  
+  color: white;
+  letter-spacing: 10px;
+}
+/*News leetter*/
+.letter{
+  background-color: #95C623;
+  padding:20px;
+  height: 100px;
+  }
+.letter p{
+  float:left;
+  font-size: 28px;
+
+
+}
+.letter form{
+  float:right;
+  
+}
+.letter form input{
+  width: 250px;
+  height: 30px;
+}
+.letter form button{
+  height: 30px;
+  width: 100px;
+  background-color:#E55812;
+  border:none;
+}
+#news-letter{
+  background-color: #95C623;
+  padding:15px;
+}
+#news-letter h3{
+  float:left;
+  
+  background-color: red;
+}
+#news-letter form{
+  float:right;
+  margin:0 5px px 0;
+}
+/*text Field */
+.text-field
+{
+    height:30%;
+    
+    font-size:20px;
+    margin:5% 13% ;
+    text-align: center;
+
+
+}
+#intro h1{
+  padding: 10px 0px 18px ;
+}
+.holder{
+  padding-bottom: 100px;
+  
+  width: 100%;
+
+
+}
+.box{
+  width: 30%;
+  float:left;
+  padding:10px;
+  margin-left: 30px;
+
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+footer{
+  float:left;
+  width: 100%;
+  background-color: #E55812;
+  
+  text-align: center;
+  padding:30px;
+
+}
+/*
+}
+.img2
+{
+  background-image: url(imgs/bureau1.jpg);
+}
+.img3
+{
+  background-image: url(imgs/bureau2.jpg);
+}*/

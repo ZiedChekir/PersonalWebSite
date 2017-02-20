@@ -1,0 +1,17 @@
+{
+  "name": "zied",
+  "version": "1.0.0",
+  "description": "personel web site and portfolio",
+  "main": "index.html",
+  "dependencies": {
+    "browser-sync": "^2.18.6",
+    "firebase": "^3.6.9",
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
